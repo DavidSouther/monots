@@ -1,0 +1,10 @@
+{
+  "name": "app",
+  "type": "module",
+  "version": "0.0.0",
+  "license": "ISC",
+  "dependencies": {
+    "common": "file:../common"
+  },
+  "main": "./lib/index.js"
+}
