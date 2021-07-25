@@ -5,7 +5,7 @@ What needs to happen!?
 Currently:
 
 1. `(cd common ; npx tsc)`
-2. `(cd server ; npx tsc)`
+2. `(cd server ; npm install; npx tsc)`
 
 ```
 src/index.ts:1:24 - error TS2307: Cannot find module 'common/assert' or its corresponding type declarations.

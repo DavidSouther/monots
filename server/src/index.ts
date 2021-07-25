@@ -1,3 +1,10 @@
+import { lowercase } from "common";
+import { Common } from "common/types";
 import { assert } from "common/assert";
 
-assert(1 == 1, "math");
+const common: Common = {
+  a: lowercase("Common"),
+  b: 5,
+};
+
+assert(common.a == "common", "math");
