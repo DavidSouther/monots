@@ -5,6 +5,7 @@
   "type": "module",
   "main": "build/main.js",
   "scripts": {
+    "clean": "rm -rf node_modules build",
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "npx tsc",
     "start": "npm run build && node build/main.js"
@@ -14,5 +15,8 @@
   "devDependencies": {
     "@types/node": "^17.0.24",
     "typescript": "^4.7.0-dev.20220415"
+  },
+  "dependencies": {
+    "a-library": "file:../a-library/a-library-1.0.0.tgz"
   }
 }

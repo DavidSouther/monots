@@ -1,4 +1,3 @@
-#!node
 import { dashCase } from "a-library/case.js";
 import { argv } from "process";
 

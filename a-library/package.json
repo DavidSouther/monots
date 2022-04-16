@@ -5,7 +5,15 @@
   "exports": {
     "./*": "./build/*"
   },
+  "typesVersions": {
+    "*": {
+      "*": [
+        "./build/*"
+      ]
+    }
+  },
   "scripts": {
+    "clean": "rm -rf node_modules build",
     "build": "npx tsc",
     "test": "npm run build && node build/test.js"
   },
