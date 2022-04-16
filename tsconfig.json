@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "lib": ["esnext", "dom"],
+    "target": "es2022",
+    "module": "es2022",
+    "noEmitOnError": true,
+    "checkJs": true,
+    "strict": true,
+    "noImplicitAny": true,
+    "moduleResolution": "node",
+    "outDir": "build",
+    "declaration": true,
+    "incremental": true,
+    "sourceMap": true
+  }
+}
