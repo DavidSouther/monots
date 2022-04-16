@@ -1,0 +1,16 @@
+{
+  "name": "a-library",
+  "version": "1.0.0",
+  "type": "module",
+  "exports": {
+    "./*": "./build/*"
+  },
+  "scripts": {
+    "build": "npx tsc",
+    "test": "npm run build && node build/test.js"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^4.7.0-dev.20220415"
+  }
+}
